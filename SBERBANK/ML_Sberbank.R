@@ -1,0 +1,17 @@
+#library
+library(tidyverse)
+library(dplyr)
+library(MASS)
+library(boot)
+library(glmnet)
+library(leaps)
+library(splines)
+library(gam)
+library(akima)
+library(boot)
+library(tree)
+library(randomForest)
+library(gbm)
+library(neuralnet)
+#bring in data
+raw_data<-read.csv("/Users/asurin/Documents/Kaggle/Sberbank/macro.csv")
